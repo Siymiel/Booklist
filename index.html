@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booklist App</title>
+    <link rel="stylesheet" href="https://bootswatch.com/4/yeti/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-4">
+        <h1 class="display-4 text-center">My <span class="text-primary">Book</span>List</h1>
+        <form id="book-form">
+            <div class="form-group">
+                <label for="title" class="h6"><strong>Title</strong></label>
+                <input type="text" id="title" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label for="author" class="h6"><strong>Author</strong></label>
+                <input type="text" id="author" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label for="isbn" class="h6"><strong>ISBN#</strong></label>
+                <input type="text" id="isbn" class="form-control">
+            </div>
+
+            <input type="submit" value="Add Book" class="btn btn-primary btn-block h6">
+        </form>
+        <table class="table table-striped mt-5">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>ISBN No.</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="book-list"></tbody>
+        </table>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

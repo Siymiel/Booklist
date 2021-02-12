@@ -1,0 +1,24 @@
+{
+  "name": "booklist",
+  "version": "1.0.0",
+  "description": "A book list application built using plain javaScript. Functionalities include adding a book, storing a book in the ui and localstorage and deleting a book",
+  "main": "app.js",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Booklist"
+  },
+  "keywords": [
+    "book-list",
+    "library",
+    "books"
+  ],
+  "author": "Samuel Kinuthia",
+  "license": "MIT"
+}
